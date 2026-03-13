@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import axios from 'axios'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://healthcare-cost-dashboard.onrender.com/api'
 
 function ValueBadge({ score }) {
   const color = score >= 75 ? '#22c55e' : score >= 50 ? '#f59e0b' : '#ef4444'

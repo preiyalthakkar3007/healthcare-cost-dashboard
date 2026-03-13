@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://healthcare-cost-dashboard.onrender.com/api'
 
 // State centroids for bubble map
 const STATE_COORDS = {
