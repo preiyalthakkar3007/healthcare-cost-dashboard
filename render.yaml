@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: healthcare-cost-backend
+    env: python
+    buildCommand: cd backend && pip install -r requirements.txt && python seed_data.py
+    startCommand: cd backend && gunicorn app:app
+    plan: free
